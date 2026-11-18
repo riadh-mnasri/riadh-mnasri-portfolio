@@ -7,7 +7,7 @@
 
 ## Portfolio officiel et production
 
-Ce dépôt (`my-portfolio`) est le dépôt officiel du portfolio de Riadh MNASRI. La branche `main` alimente le projet Vercel `my-portfolio` en production.
+Ce dépôt (`riadh-mnasri-portfolio`) est le dépôt officiel du portfolio de Riadh MNASRI. La branche `main` alimente le projet Vercel `my-portfolio` en production.
 
 | Domaine | Rôle |
 |---|---|
@@ -123,7 +123,7 @@ vercel --prod
 ## Structure
 
 ```
-my-portfolio/
+riadh-mnasri-portfolio/
 ├── app/
 │   ├── api/contact/route.ts   # Formulaire de contact
 │   ├── layout.tsx             # Metadata SEO + JSON-LD + domaine
