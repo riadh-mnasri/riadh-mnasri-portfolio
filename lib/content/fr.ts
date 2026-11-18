@@ -290,6 +290,12 @@ export const fr: PortfolioContent = {
     titleHighlight: "terrain",
     subtitle: "Banque, énergie, retail, secteur public : des systèmes critiques cloud-native pour les plus grands.",
     stackLabel: "Stack",
+    cartanTradeCaseStudy: {
+      title: "Étude de cas · Cartan Trade",
+      role: "Senior Tech Lead & Architecte · Mission en cours",
+      summary: "Construction d’une plateforme de calcul et de gestion du risque d’impayés pour l’assurance-crédit.",
+      approach: "Le développement s’appuie sur une approche agentique de bout en bout avec Claude. Les workflows organisent les tâches des agents, les skills leur donnent des instructions réutilisables et MCP les relie aux outils du projet.",
+    },
     items: [
       {
         company: "Cartan Trade",
@@ -488,13 +494,37 @@ export const fr: PortfolioContent = {
     followersLabel: "7 780 abonnés",
     reactionsLabel: "réactions",
     githubTitle: "GitHub Open Source",
-    reposLabel: "155 repos",
+    reposLabel: "Tous les dépôts",
     catalogLinkLabel: "Voir toutes mes apps →",
     talksTitle: "Talks & Présentations",
     slideshareLabel: "SlideShare",
     blogTitle: "Articles de blog",
     blogLabel: "riadhmnasri.fr",
     items: [
+      {
+        title: "terraform-change-review",
+        desc: "Analyse les plans Terraform dans Claude Code et en CI, avec des constats justifiés et des contrôles ciblés pour Google Cloud.",
+        tags: ["Terraform", "Java 17", "MCP", "Apache-2.0"],
+        url: "https://github.com/riadh-mnasri/terraform-change-review",
+      },
+      {
+        title: "claude-agentic-handbook",
+        desc: "Guide des agents Claude et des workflows agentiques, avec des exemples exécutables et testés en Python, TypeScript et Kotlin.",
+        tags: ["Python", "TypeScript", "Kotlin", "MIT"],
+        url: "https://github.com/riadh-mnasri/claude-agentic-handbook",
+      },
+      {
+        title: "coding-dojo-katas",
+        desc: "Katas résolus en Kotlin par les tests, avec les étapes TDD et les choix de conception documentés en français et en anglais.",
+        tags: ["Kotlin", "TDD", "MIT"],
+        url: "https://github.com/riadh-mnasri/coding-dojo-katas",
+      },
+      {
+        title: "tarmac",
+        desc: "Interface pour créer, valider et lancer des skills et des agents Claude Code, avec suivi des exécutions en direct et historique des coûts.",
+        tags: ["Claude Code", "TypeScript", "MIT"],
+        url: "https://github.com/riadh-mnasri/tarmac",
+      },
       {
         title: "kotlin-counterparty-risk",
         desc: "Librairie OSS Kotlin/JVM : exposition, expected loss et CVA sur repos et prêts de titres",

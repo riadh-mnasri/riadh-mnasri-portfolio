@@ -71,7 +71,7 @@ export function Projects() {
           <Icon name="github" size={20} className="text-[#D4AF37]" />
           <h3 className="text-xl font-bold text-[#F1F5F9]">{projects.githubTitle}</h3>
           <a
-            href={links.github}
+            href={`${links.github}?tab=repositories`}
             target="_blank"
             rel="noopener noreferrer"
             className="ml-auto text-sm text-[#D4AF37] hover:text-[#D4AF37] flex items-center gap-1 transition-colors"

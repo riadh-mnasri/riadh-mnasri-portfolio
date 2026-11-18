@@ -11,6 +11,7 @@ import { getContent } from "@/lib/content";
 export function Experience() {
   const [open, setOpen] = useState<number | null>(0);
   const { experience } = getContent(useLocale());
+  const { cartanTradeCaseStudy } = experience;
 
   return (
     <section id="experience" className="max-w-6xl mx-auto px-6">
@@ -83,6 +84,14 @@ export function Experience() {
           </SectionReveal>
         ))}
       </div>
+      <SectionReveal>
+        <article className="glass max-w-3xl mx-auto mt-8 rounded-2xl p-6">
+          <p className="text-sm text-[#D4AF37] mb-2">{cartanTradeCaseStudy.role}</p>
+          <h3 className="text-xl font-bold text-[#F1F5F9] mb-3">{cartanTradeCaseStudy.title}</h3>
+          <p className="text-[#F1F5F9] mb-3">{cartanTradeCaseStudy.summary}</p>
+          <p className="text-[#94A3B8] leading-relaxed">{cartanTradeCaseStudy.approach}</p>
+        </article>
+      </SectionReveal>
     </section>
   );
 }

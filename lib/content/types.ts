@@ -211,6 +211,12 @@ export interface PortfolioContent {
     titleHighlight: string;
     subtitle: string;
     stackLabel: string;
+    cartanTradeCaseStudy: {
+      title: string;
+      role: string;
+      summary: string;
+      approach: string;
+    };
     items: ExperienceItem[];
   };
 
